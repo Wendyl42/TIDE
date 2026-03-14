@@ -52,3 +52,5 @@ python run.py --method yarn --disable_tide
 # Use pure FLUX.1 without any extrapolation method
 python run.py --method no --disable_dype --disable_tide --width 2048 --height 2048
 ```
+
+For Qwen-Image generation, use the run_qwen.py script. It accepts similar parameters, but does not support the `--disable_dype` parameter, and only support `no` and `yarn` for `--method` parameter.
